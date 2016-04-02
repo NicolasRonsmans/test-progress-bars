@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": "eslint-config-airbnb",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-unused-vars": 1,
+    "no-case-declarations": 1,
+    "react/jsx-closing-bracket-location": 1,
+    "react/prefer-stateless-function": 1,
+    "react/prop-types": 1
+  }
+}

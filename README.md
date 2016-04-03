@@ -26,3 +26,8 @@ and
 ```
 http://localhost:8080
 ```
+
+## TEST
+```
+npm test
+```

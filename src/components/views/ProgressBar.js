@@ -8,7 +8,7 @@ const PprogressBar = props => {
     <div className={`progress-bar ${overLimit ? 'progress-bar--overlimit' : ''}`}>
       <div
         className="progress-bar__gauge"
-        style={{ width: `${overLimit ? 100 : progress}%` }} />
+        style={{ width: `${overLimit ? 100 : progress < 0 ? 0 : progress}%` }} />
       <div className="progress-bar__indicator">
         {`${progress}%`}
       </div>

@@ -1,8 +1,8 @@
 import * as actions from './actions';
 
 const initialState = {
-  selectedBar: 1,
-  progressBars: [210, 0, 11],
+  selectedBar: 0,
+  progressBars: [0, 0, 0],
 };
 
 const reducer = (state = initialState, action) => {

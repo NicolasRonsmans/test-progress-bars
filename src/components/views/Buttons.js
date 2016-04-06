@@ -1,9 +1,8 @@
 import React from 'react';
-import { BUTTONS_CONFIG } from '../../config';
 
 const Buttons = props => (
   <div className="controls__buttons">
-    {BUTTONS_CONFIG.map((button, index) => (
+    {props.config.map((button, index) => (
       <button
         key={index}
         className="controls__button"

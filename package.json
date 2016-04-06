@@ -1,7 +1,8 @@
 {
-  "name": "tenthhouse-test",
+  "name": "test-progress-bars",
   "version": "0.1.0",
-  "description": "Tenthhouse Technical Test",
+  "description": "Test | Progress bars",
+  "private": true,
   "main": "server.js",
   "scripts": {
     "test": "npm run jest",

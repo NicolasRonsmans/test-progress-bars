@@ -1,4 +1,4 @@
-const BUTTONS_CONFIG = [
+export const BUTTONS_CONFIG = [
   {
     text: '-25',
     value: -25,
@@ -13,7 +13,3 @@ const BUTTONS_CONFIG = [
     value: 25,
   },
 ];
-
-export {
-  BUTTONS_CONFIG,
-};

@@ -2,16 +2,16 @@
 
 ## INSTALL
 ```
-npm install
+$ npm install
 ```
 
 ## DEV
 ```
-npm start
+$ npm start
 ```
 or
 ```
-npm run dev
+$ npm run dev
 ```
 and
 ```
@@ -20,14 +20,14 @@ http://localhost:8081
 
 ## PROD
 ```
-npm run prod
+$ npm run prod
 ```
 and
 ```
-http://localhost:8080
+http://localhost:8081
 ```
 
 ## TEST
 ```
-npm test
+$ npm test
 ```

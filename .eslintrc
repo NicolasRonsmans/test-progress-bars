@@ -15,6 +15,9 @@
     "no-unused-vars": 1,
     "react/jsx-closing-bracket-location": 1,
     "react/prefer-stateless-function": 1,
-    "react/prop-types": 1
+    "react/prop-types": 1,
+    "jsx-a11y/img-uses-alt": 1,
+    "jsx-a11y/redundant-alt": 1,
+    "jsx-a11y/valid-aria-role": 1
   }
 }
